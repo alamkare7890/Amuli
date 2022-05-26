@@ -854,6 +854,9 @@ html,body{
 .events-box .price{
     width: 25%;
 }
+.perform-metter .metter-box{
+    width: 50%;
+}
 /*=============EXPOLORE-SECTION=============*/
 .expolore-section .expolore-text{
     width: 75%;
@@ -983,10 +986,19 @@ html,body{
 .header-text h1{
     padding: 20px;
 }
+.more-button{
+    padding: 15px 35px;
+}
 /*=============OURSHOWCASE-SECTION=============*/
+.yellow-button{
+    padding: 15px 20px;
+}
 /*=============EVENTS-SECTION=============*/
 .events-section .events-text{
     padding: 10px;
+}
+.perform-metter .metter-box{
+    width: 100%;
 }
 /*--=============NEWS-SECTION=============*/
 .news-section .blog-box{
@@ -1000,7 +1012,13 @@ html,body{
 .shop-section .shop-text{
     padding: 10px;
 }
+.price .price-button{
+    padding: 15px 20px;
+}
 /*=============CONTACT-SECTION=============*/
+.contact-section .form-button{
+    padding: 15px 20px;
+}
 /*=============LOCATED-SECTION=============*/
 /*=============FOOTER-SECTION=============*/
 
