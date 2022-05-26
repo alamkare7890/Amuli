@@ -1,0 +1,26 @@
+/* global jQuery:false */
+/* global AMULI_STORAGE:false */
+
+(function() {
+    "use strict";
+
+    // Init skin-specific actions on first run
+    // Attention! Don't forget to add the class "inited" and check it to prevent re-initialize the elements
+    jQuery( document ).on(
+        'action.ready_amuli', function() {
+
+            // Calendar arrows
+            jQuery('.widget_calendar .wp-calendar-nav-prev a, .wp-block-calendar .wp-calendar-nav-prev a').each(function() {
+                jQuery( this ).html( jQuery( this ).html().replace('«','') );
+                jQuery( this ).prepend( "<span class='calendar-arrows'> </span>" );
+            });
+            jQuery('.widget_calendar .wp-calendar-nav-next a, .wp-block-calendar .wp-calendar-nav-next a').each(function() {
+                jQuery( this ).html( jQuery( this ).html().replace('»','') );
+                jQuery( this ).append( "<span class='calendar-arrows'> </span>" );
+            });
+
+        }
+    );
+
+})();
+
