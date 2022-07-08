@@ -14,8 +14,21 @@ function eventFunction() {
 
 
 $(document).ready(function () {
+    
 
+    $("#navIcon").click(function(){
+        
+        
+        $("#navBar").slideToggle();
 
+    
+    
+    })
+
+    $("#cancel").click(function () {
+        $("#navBar").fadeOut();
+    
+    })
 
 })
     

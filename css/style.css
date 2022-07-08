@@ -122,6 +122,9 @@ html,body{
 .navi-button .nav-icon{
     color: #f1f1f1;
 }
+.nav-section ul .close .fa{
+    display: none;
+}
 .more-button{
     color: #F1f1f1;
     background-color: #00A1FF;
@@ -156,11 +159,15 @@ html,body{
     justify-content: space-between;
 }
 .nav-section .nav-items{
-    width: 90%;
+    width: 65%;
     justify-content: flex-end;
     padding-top: 10px;
     align-items: center;
 
+}
+.sehdule-box{
+    width: 25%;
+    
 }
 .nav-items li{
     padding-left: 25px;
@@ -720,7 +727,10 @@ html,body{
         width: 20%;
     }  
      .nav-section .nav-items{
-        width: 80%;
+        width: 60%;
+    }
+   .sehdule-box{
+        width: 20%;
     }
 /*=============HEADER-SECTION=============*/
     .header-section{
@@ -788,14 +798,49 @@ html,body{
 /*=============NAVIGATION-SECTION=============*/
 .nav-section .nav-items{
     display: none;
+    justify-content: flex-start;
+    background-color: #0d141e5e;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 80px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
 }
+.nav-items li{
+    text-align: center;
+    width: 150px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    background-color: #1E54E7;
+    color: #f1f1f1;
+    border-radius: 5px;
 
-.navi-button{
-    justify-content: flex-end;
+}
+.nav-section ul .close .fa{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 2.5rem;
     display: flex;
+    color: #1E54E7;
+}
+.sehdule-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: flex-end;
+}
+.navi-button{
+    justify-content: center;
+    display: flex;
+    width: 10%;
 }
 /*=============HEADER-SECTION=============*/
-
+.header-button{
+    padding: 18px 20px;
+}
 /*=============OURSHOWCASE-SECTION=============*/
 /*=============EVENTS-SECTION=============*/
 .events-section .events-text{
