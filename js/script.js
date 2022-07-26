@@ -33,12 +33,14 @@ $(document).ready(function () {
     AOS.init();
     
     /*=========counter-up=======*/
-    $('.num').counterUp({
-        delay: 10,
-        time: 1000
-    
-    });
-    $('.num').counterUp();
-    
+    $(window).scroll(function () { 
+        $(".num").counterUp({
+        
+            delay: 10,
+            time: 1000,
+        
+        
+        });
+    })
 })
     
