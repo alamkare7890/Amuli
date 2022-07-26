@@ -29,11 +29,10 @@ $(document).ready(function () {
         $("#navBar").addClass('nav-close');
     
     })
-/*========Aos Intallation===========*/
+    /*========Aos Intallation===========*/
     AOS.init();
     
     /*=========counter-up=======*/
-    $(window).scroll(function () { 
         $(".num").counterUp({
         
             delay: 10,
@@ -41,6 +40,6 @@ $(document).ready(function () {
         
         
         });
-    })
+    
 })
     
