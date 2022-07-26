@@ -54,6 +54,9 @@ html,body{
     background-color: #0d141e63;
     
 }
+.navClose{
+    display: none;
+}
 /*
 .button:hover{
     color: #00A1FF;
@@ -213,6 +216,9 @@ html,body{
 }
 .nav-items li a:hover:after{
     width: 100%;
+}
+.close{
+    z-index: 2;
 }
 .header-button{
     border: 2px solid #f1f1f1;

@@ -26,7 +26,7 @@ $(document).ready(function () {
     })
 
     $("#cancel").click(function () {
-        $("#navBar").fadeOut();
+        $("#navBar").addClass('.navClose');
     
     })
 /*========Aos Intallation===========*/
