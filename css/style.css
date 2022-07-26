@@ -7,6 +7,18 @@ html,body{
     width: 100%;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+body::-webkit-scrollbar{
+    width: 7px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #00A1FF;
+    border-radius: 3px;
+}
+body::-webkit-scrollbar-track{
+    background-color: #000;
+    box-shadow: inset 0 0 5px 0 #000;
 }
 .container{
     width: 95%;
@@ -54,7 +66,7 @@ html,body{
     background-color: #0d141e63;
     
 }
-.navClose{
+.nav-section .nav-close{
     display: none;
 }
 /*
@@ -166,6 +178,7 @@ html,body{
     justify-content: flex-end;
     padding-top: 10px;
     align-items: center;
+
 
 }
 .sehdule-box{
@@ -425,7 +438,7 @@ html,body{
     width: 30%;
     text-align: center;
     background-color: #fff;
-    box-shadow: -3px 5px 5px 1px #8A8D98;
+    box-shadow: 0 0 6px 2px #8A8D98;
 
 }
 .blog-box img{
@@ -586,6 +599,7 @@ html,body{
 .contact-section .check-box{
     margin-left: 25px;
     border: 1px solid #00a2ff1e;
+    cursor: pointer;
 }
 
 .contact-section .check-box:focus{
@@ -813,6 +827,7 @@ html,body{
     flex-direction: column;
     align-items: flex-start;
     padding-left: 20px;
+    z-index: 10;
 }
 .nav-items li{
     text-align: center;

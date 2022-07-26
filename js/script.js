@@ -26,12 +26,19 @@ $(document).ready(function () {
     })
 
     $("#cancel").click(function () {
-        $("#navBar").addClass('.navClose');
+        $("#navBar").addClass('nav-close');
     
     })
 /*========Aos Intallation===========*/
     AOS.init();
     
+    /*=========counter-up=======*/
+    $('.num').counterUp({
+        delay: 10,
+        time: 1000
+    
+    });
+    $('.num').counterUp();
     
 })
     

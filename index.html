@@ -20,7 +20,7 @@
 
 <body>
     <!--=============HEADER-SECTION=============--> 
-    <header class="header-section">
+    <header class="header-section" id="home">
         <!--============NAVIGATION-SECTION=============-->
         <nav class="nav-section">
             <div class="container flex-box align-item">
@@ -31,30 +31,28 @@
                     </a>
                 </div>
                 <ul class="nav-items flex-box" id="navBar">
-                    <a href="#" class="close" id="cancel">
-                        <i class="fa fa-close"></i>
-                    </a>
+
                     <li>
-                        <a href="#">
+                        <a href="#home">
                             Home
                         </a>
                     </li>
                     <li>
-                        <a href="#">New Complex</a>
+                        <a href="#complex">New Complex</a>
                     </li>
                     <li>
-                        <a href="#">Apartment Plans</a>
+                        <a href="#event">Apartment Plans</a>
                     </li>
                     <li>
-                        <a href="#">Property Listing</a>
+                        <a href="#" id="explore">Property Listing</a>
                     </li>
                     <li class="padding">
-                        <a href="#">News</a>
+                        <a href="#news">News</a>
                     </li>
                     
                 </ul>
                 <div class="sehdule-box">
-                    <a href="#" class="button header-button">Sehedule A Visit</a>
+                    <a href="#contact" class="button header-button">Sehedule A Visit</a>
                 </div>
                 <div class="navi-button">
                     <a href="#" id="navIcon">
@@ -72,7 +70,7 @@
         </div>
     </header>
     <!--=============OURSHOWCASE-SECTION=============-->
-    <section class="showcase-section">
+    <section class="showcase-section" id="complex">
         <div class="container flex-box">
             <div class="showcase-text" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="500">
                 <h1 class="head">Introsucing A New Residential Complex</h1>
@@ -89,27 +87,27 @@
         </div>
         <div class="perform-metter">
             <div class="container flex-box content-space">
-                <div class="metter-box" data-aos="fade-down" data-aos-duration="1000">
-                    <span id="Anum"></span>
+                <div class="metter-box" >
+                    <span class="num">1200</span>
                     <h3>Apartment Houses</h3>
                 </div>
-                <div class="metter-box" data-aos="fade-up" data-aos-duration="1000">
-                    <span id="Lnum"></span>
+                <div class="metter-box" >
+                    <span class="num">29</span>
                     <h3>Luxe Apartment</h3>
                 </div>
-                <div class="metter-box" data-aos="fade-down" data-aos-duration="1000">
-                    <span id="Cpark"></span>
+                <div class="metter-box" >
+                    <span class="num">88</span>
                     <h3>Car Parking</h3>
                 </div>
-                <div class="metter-box" data-aos="fade-up" data-aos-duration="1000">
-                    <span id="Hcus"></span>
+                <div class="metter-box" >
+                    <span class="num">120</span>
                     <h3>Happy Customers</h3>
                 </div>
             </div>
         </div>
     </section>
     <!--=============EVENTS-SECTION=============-->
-    <section class="events-section">
+    <section class="events-section" id="event">
         <div class="container">
             <div class="events-text">
                 <h1 class="head">Our Events</h1>
@@ -187,7 +185,7 @@
         </div>
     </section>
     <!--=============EXPOLORE-SECTION=============-->
-    <section class="expolore-section">
+    <section class="expolore-section" id="explore">
         <div class="container">
             <div class="expolore-text">
                 <h1 class="head" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">Introducing A New Residential Complex</h1>
@@ -198,7 +196,7 @@
         </div>
     </section>
     <!--=============NEWS-SECTION=============-->
-    <section class="news-section">
+    <section class="news-section" id="news">
         <div class="container">
             <div class="news-text">
                 <h1 class="head">Latest News</h1>
@@ -279,7 +277,7 @@
 
     </section>
     <!--=============CONTACT-SECTION=============-->
-    <section class="contact-section">
+    <section class="contact-section" id="contact">
         <div class="container">
             <div class="contact-text">
                 <h1 class="head">Enquire</h1>
@@ -389,6 +387,8 @@
     </div>-->
     <script src="js/js-query.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="jquery.counterup.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
